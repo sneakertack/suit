@@ -1,4 +1,4 @@
-suit.js
+Suit.js
 =======
 
 Gracefully conform objects to defined schemas.

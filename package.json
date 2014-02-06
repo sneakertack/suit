@@ -1,7 +1,7 @@
 {
-  "name": "suit.js",
-  "version": "0.0.1",
-  "description": "Gracefully conform objects to defined schemas.",
+  "name": "suit",
+  "version": "0.0.2",
+  "description": "Gracefully conform Javascript objects to your schemas.",
   "keywords": [
     "object",
     "schema",
@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Sneakertack/suit.js.git"
+    "url": "git://github.com/Sneakertack/suit.git"
   },
   "bugs": {
-    "url": "http://github.com/Sneakertack/suit.js/issues"
+    "url": "http://github.com/Sneakertack/suit/issues"
   },
   "licenses": [
     {
