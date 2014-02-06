@@ -1,0 +1,32 @@
+{
+  "name": "suit.js",
+  "version": "0.0.1",
+  "description": "Gracefully conform objects to defined schemas.",
+  "keywords": [
+    "object",
+    "schema",
+    "validation",
+    "json",
+  ],
+  "author": {
+    "name": "Melvin Tiong",
+    "email": "cy.tiong@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sneakertack/suit.js.git"
+  },
+  "bugs": {
+    "url": "http://github.com/Sneakertack/suit.js/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    
+  }
+}
