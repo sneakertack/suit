@@ -6,7 +6,7 @@
     "object",
     "schema",
     "validation",
-    "json",
+    "json"
   ],
   "author": {
     "name": "Melvin Tiong",
@@ -27,6 +27,7 @@
   ],
   "main": "./lib",
   "dependencies": {
-    
+    "validator": "3.2.*",
+    "lodash": "2.4.*"
   }
 }
