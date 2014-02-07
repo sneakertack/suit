@@ -1,7 +1,7 @@
 /* Run 'node experiment.js' and observe the results. */
 
 var suit = require('../lib')
-var c = suit.constraints;
+var c = suit.constraints();
 
 var schema = {
   username: [c.string, c.required],
