@@ -45,6 +45,8 @@ var input4 = {
   email: 'asdf@df.com'
 }
 
+// Pass in the value itself, rather than an object.
+var input5 = 'A string'
 
 ////
 // Test it!
@@ -54,3 +56,4 @@ try { console.log(suit.fit(input1, schema)); } catch (e) { console.log('Error: '
 try { console.log(suit.fit(input2, schema)); } catch (e) { console.log('Error: ' + e); }
 try { console.log(suit.fit(input3, schema)); } catch (e) { console.log('Error: ' + e); }
 try { console.log(suit.fit(input4, schema)); } catch (e) { console.log('Error: ' + e); }
+try { console.log(suit.fit(input5, c.integer)); } catch (e) { console.log('Error: ' + e); }
