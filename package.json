@@ -1,6 +1,6 @@
 {
   "name": "suit",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Gracefully conform Javascript objects to your schemas.",
   "keywords": [
     "object",
