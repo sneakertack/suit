@@ -1,7 +1,7 @@
 {
   "name": "suit",
-  "version": "0.3.5",
-  "description": "Gracefully conform Javascript objects to your schemas.",
+  "version": "0.4.0",
+  "description": "Super simple object validation.",
   "keywords": [
     "object",
     "schema",

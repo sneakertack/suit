@@ -186,7 +186,7 @@ Adding your own constraints
 
 You have a few ways of adding your own constraints:
 
-1. You can put them in a seperate file and then load using suit.constraints(),
+1: You can put them in a seperate file and then load using suit.constraints(),
 
 **Actually, this method is offline right now, because I haven't settled how suit.constraints() pathfinds for custom constraint files yet.**
 
@@ -211,7 +211,7 @@ var s = suit.constraints([
 suit.fit('im listening', s.cap); // 'IM LISTENING'
 ```
 
-2. You can also pass suit.constraints an inline hash of constraints, if you're lazy,
+2: You can also pass suit.constraints an inline hash of constraints, if you're lazy,
 
 ```js
 var suit = require('suit');
@@ -230,7 +230,7 @@ var s = suit.constraints([
 suit.fit('im listening', s.cap); // 'IM LISTENING'
 ```
 
-3. Heck, because constraints are simply functions, you can even declare them on-the-fly,
+3: Heck, because constraints are simply functions, you can even declare them on-the-fly,
 
 ```js
 suit.fit('im listening', function (value) {
