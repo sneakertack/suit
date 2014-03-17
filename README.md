@@ -46,6 +46,7 @@ Returns the following:
   }
 }
 */
+```
 
 The `suit` library has only 2 main parts: 1) the `suit.fit` function, which conforms your input according to a desired schema, and 2) the `suit.constraints` function, which loads constraints you can use in building your schemas (including some common defaults like `string`, `number`, `collection`, etc.).
 
@@ -150,7 +151,7 @@ What's a constraint
 ------
 A constraint is simply a function that takes a single input argument. If all is well it outputs the original input (or a slightly amended version of the input). If all is not well it throws an error.
 
-```
+```js
 // Source for s.integer
 // noo() refers to a convenience function that checks whether the value is null or undefined - handling null/undefined is not this constraint's job, so it just lets it pass.
 // Notice that we can just use other library's validators (e.g. lodash) instead of inventing our own.
