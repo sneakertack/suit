@@ -122,9 +122,10 @@ suit.fit({
   address: {
     street: '11 Roadey Road',
     postalCode: 123456,
-    country:
+    country: {
       code: 'SG',
       name: 'Singapore'
+    }
   },
   pets: [{
     name: 'spot',
